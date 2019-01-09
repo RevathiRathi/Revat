@@ -1,3 +1,5 @@
 n=input()
-n=n.split(" ")
-print(len(n)+1)
+n=n.split(".")
+print(len(n))
+lasmdkasd. asldmskad .akdmskdm
+Output :
