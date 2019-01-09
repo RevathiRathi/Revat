@@ -1,6 +1,3 @@
 n=int(input())
-l=[]
-for i in range(0,n):
-    s=int(input())
-    l.append(s)
+l=[int(x) for x in input().split()]
 print(min(l))
