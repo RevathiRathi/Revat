@@ -10,4 +10,4 @@ for i in range(0,len(l)):
 if f==1:
 	print("yes")
 else:
-	print("no")
+	print("No")
