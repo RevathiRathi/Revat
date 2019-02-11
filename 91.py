@@ -3,4 +3,4 @@ vol=l*b*h
 area=(l*b)+(b*h)+(h*l)
 s=2*area
 print(s,end=" ")
-print(area)
+print(vol)
