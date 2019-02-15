@@ -1,4 +1,4 @@
-#rev
+#revvvv
 s1,s2=map(str,input().split())
 c=0
 if len(s1)!=len(s2):
