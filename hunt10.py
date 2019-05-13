@@ -6,6 +6,6 @@ for i in range(0,len(b)):
 	if b[i] in a:
 		c+=1
 if len(b)==c:
-	print("yes")
+	print("YES")
 else:
-	print("no")
+	print("NO")
