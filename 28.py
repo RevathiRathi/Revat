@@ -1,3 +1,3 @@
 import re
-s=input()
-print(s.replace(" ",""))
+str=input()
+print(str.replace(" ",""))
