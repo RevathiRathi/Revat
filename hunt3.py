@@ -4,4 +4,8 @@ a=[]
 for i in range(0,len(l)):
 	if l[i]==i:
 		a.append(l[i])
-print(*a)
+if len(a)!=0:
+	print(*a)
+else:
+	print(-1)
+    
