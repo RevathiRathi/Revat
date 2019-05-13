@@ -9,7 +9,7 @@ for i in range(len(l)):
 			break
 a.sort()
 if len(a)==0:
-	print("Unique")
+	print("unique")
 else:
 	for i in range(0,len(a)-1):
 		print(a[i],end=" ")
