@@ -8,6 +8,6 @@ for i in range(len(l)):
 			a.append(l[i])
 for i in range(0,len(a)-1):
 	c=c+1
-	print(a[0])
+print(a[0])
 if c==0:
 	print("unique")
