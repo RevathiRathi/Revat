@@ -1,3 +1,3 @@
 #revathi
-n=int(input())
+n=input()
 print(n)
