@@ -8,7 +8,7 @@ while n>0:
 s=str(sum)
 a=s[::-1]
 if s==a:
-	print("yes")
+	print("YES")
 else:
-	print("no")
+	print("NO")
 	
