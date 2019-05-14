@@ -1,3 +1,4 @@
+#reva
 s=input()
 x=""
 for i in s:
