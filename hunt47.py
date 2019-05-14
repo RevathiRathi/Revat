@@ -1,2 +1,4 @@
-s=[str(x) for x in input().split()]
-print(' '.join(s))
+import re
+t=input()
+r=re.sub(' +', ' ',t)
+print(r.strip())
