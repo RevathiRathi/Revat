@@ -1,4 +1,4 @@
 #reee
 n=int(input())
-n=n//2
-print(n+1)
+a=n//2
+print(a+1)
