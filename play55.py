@@ -1,6 +1,5 @@
-#rrrr
 s,s1=map(str,input().split())
-if s!=s1:
+if s.lower()==s1.lower():
 	print("yes")
 else:
 	print("no")
