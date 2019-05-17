@@ -1,7 +1,11 @@
 #reva
 n=int(input())
-for i in range(1,n+1):
-	c=n/i
-	if c%2==1:
+c=0
+for i in range(1,n):
+	p=n//i
+	if n%i==0 and p%2==1:
 		print(i)
+		c=c+1
 		break
+if c==0:
+	print(n)
