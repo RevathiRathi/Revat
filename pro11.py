@@ -1,4 +1,4 @@
 #reva
 n=int(input())
-r=n*(n-1)//2
-print(r)
+k=n*(n-1)//2
+print(k)
