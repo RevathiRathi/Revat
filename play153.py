@@ -1,5 +1,5 @@
 #reva
-s,k=map(str,input().split())
+s,k=input().split()
 k=int(k)
 l=[]
 for i in range(k-1,len(s),k):
