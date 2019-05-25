@@ -1,4 +1,4 @@
-3rr
+#rr
 s,k=input().split()
 k=int(k)
 a=""
