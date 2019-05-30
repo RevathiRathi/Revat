@@ -1,19 +1,19 @@
 #r
 n,k=map(int,input().split())
-l=[]
-a=[]
+x=[]
+l1=[]
 for i in range(n):
-    l1=[int(x) for x in input().split()]
-    l.append(l1)
-    if i in l:
-        m=l.index(i)
-        a.append(m)
-for i in range(len(l)):
-    if i in l[i]:
+    l=[int(x) for x in input().split()]
+    x.append(l)
+    if 0 in l:
+        m=l.index(0)
+        l1.append(m)
+for i in range(len(x)):
+    if 0 in x[i]:
         for j in range(k):
-            l[i][j]=0
-for i in a:
+            x[i][j]=0
+for i in l1:
     for j in range(n):
-        l[i][j]=0
-for i in l:
+        x[j][i]=0
+for i in x:
     print(*i)
