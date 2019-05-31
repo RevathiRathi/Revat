@@ -7,7 +7,6 @@ for i in range(len(s)):
         break
     else:
         c=1
-        break
 if c==0:
     print("YES")
 else:
