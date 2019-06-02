@@ -1,5 +1,5 @@
 #r
-n=int(input())
+m=int(input())
 l=[int(x) for x in input().split()]
 l1=[]
 for i in range(0,len(l)-1):
