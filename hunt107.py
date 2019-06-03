@@ -1,6 +1,6 @@
 #r
 s=input()
-l=[]
+l1=[]
 if s==s[::-1]:
 	print(s)
 else:
@@ -8,5 +8,5 @@ else:
 		for j in range(len(s),-1,-1):
 			a=s[i:j+1]
 			if a==a[::-1]:
-				l.append(len(a))
-print(max(l))	
+				l1.append(len(a))
+print(max(l1))	
