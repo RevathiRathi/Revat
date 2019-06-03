@@ -6,4 +6,4 @@ for i in range(n):
 	for j in range(i):
 		if l[j]<l[i]:
 			s+=l[j]
-print(s)v
+print(s)
